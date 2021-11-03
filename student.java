@@ -9,7 +9,10 @@ public class student {
         this.gradeLevel = 0;
         this.gradePointAvg = 0;
         this.studentName = "";
-   }
+    
+    public student(int studentID, int gradeLevel, double gradePointAvg, String studentName);
+    }
+    
 public static void calcGPA() {
     int grade0;
     int grade1;

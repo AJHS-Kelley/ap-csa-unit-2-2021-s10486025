@@ -9,9 +9,14 @@ public class student {
         this.gradeLevel = 0;
         this.gradePointAvg = 0;
         this.studentName = "";
-    
-    public student(int studentID, int gradeLevel, double gradePointAvg, String studentName);
     }
+    public student(int studentID, int gradeLevel, double gradePointAvg, String studentName){
+        this.studentID;
+        this.gradeLevel;
+        this.gradePointAvg;
+        this.studentName;
+    }
+
     
 public static void calcGPA() {
     int grade0;
@@ -39,13 +44,39 @@ public static void calcGPA() {
 
 public static void newline() {
     System.out.println();
-} 
+}
+public static void threeline(){
 
-public static void thirdline();
+    newline();
+    newline();
+    newline();
+
+}
+
+
+public static void assignLunch(int gradeLevel);{
+    String lunchPeriod;
+    
+    if(gradeLevel == 9){
+        lunchPeriod ="First Lunch";
+        System.out.print("This student has");
+        System.out.println(lunchPeriod);
+    }else if(gradeLevel == 10) {
+        lunchPeriod = "Second Lunch";
+        System.out.print("This student has");
+        System.out.println(lunchPeriod);
+    
+    }else if(gradeLevel == 11) {
+        lunchPeriod = "Third Lunch";
+        System.out.print("This student has");
+        System.out.println(lunchPeriod);
+
+
+}
 
 
 
-    public static void main(String[] args) 
+public static void main(String[] args)
 
     
 
@@ -56,10 +87,10 @@ public static void thirdline();
 
 
 
-}
 
 
-}
+
+
 
 
 

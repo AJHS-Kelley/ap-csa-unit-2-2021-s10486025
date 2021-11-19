@@ -79,7 +79,11 @@ public static void assignLunch(int gradeLevel){
 }
 
 public static void mathPractice(){
-    
+    int x;
+    int y;
+    Scanner myScanner = new Scanner(System.in);
+    Math.min(x, y);
+    System.out.println(Math.min(x,y));
 }
 
 public static void main(String[] args){

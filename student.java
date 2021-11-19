@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class student {
     private int studentID;
     private int gradeLevel;
@@ -10,12 +12,13 @@ public class student {
         this.gradePointAvg = 0;
         this.studentName = "";
     }
-    public student(int studentID, int gradeLevel, double gradePointAvg, String studentName){
+    public student(int studentID, int gradeLevel, double gradePointAvg, String studentName) {
         this.studentID;
         this.gradeLevel;
         this.gradePointAvg;
         this.studentName;
     }
+    
 
     
 public static void calcGPA() {
@@ -24,9 +27,8 @@ public static void calcGPA() {
     int grade2;
     int grade3;
     double newGPA;
-
-    import java.until.Scanner
-    Scanner myScanner = new Scanner();
+}
+    Scanner myScanner = new Scanner(System.in);
 
     System.out.println("What is the first grade?");
     grade0= myScanner.nextInt();
@@ -40,11 +42,10 @@ public static void calcGPA() {
     newGPA = (grade0 + grade1 + grade2 + grade3) / 4;
     System.out.print("The new GPA is");
     System.out.println(newGPA);
-
-
-public static void newline() {
+    
+public static void newline() 
     System.out.println();
-}
+
 public static void threeline(){
 
     newline();
@@ -54,7 +55,7 @@ public static void threeline(){
 }
 
 
-public static void assignLunch(int gradeLevel);{
+public static void assignLunch(int gradeLevel){
     String lunchPeriod;
     
     if(gradeLevel == 9){
@@ -70,13 +71,19 @@ public static void assignLunch(int gradeLevel);{
         lunchPeriod = "Third Lunch";
         System.out.print("This student has");
         System.out.println(lunchPeriod);
-
-
+    }else if(gradeLevel == 12) {
+        lunchPeriod = "Off Campus Lunch";
+        System.out.print("This student has");
+        System.out.println(lunchPeriod);
+    }
 }
 
+public static void mathPractice(){
+    
+}
 
-
-public static void main(String[] args)
+public static void main(String[] args){
+}
 
     
 

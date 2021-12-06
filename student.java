@@ -5,7 +5,7 @@ public class student {
     private int gradeLevel;
     private double gradePointAvg;
     private String studentName;  
-       
+}     
     public student() {
         this.studentID = 0;
         this.gradeLevel = 0;
@@ -19,7 +19,7 @@ public class student {
         this.studentName;
     }
     
-
+}
     
 public static void calcGPA() {
     int grade0;
@@ -28,7 +28,7 @@ public static void calcGPA() {
     int grade3;
     double newGPA;
 }
-    Scanner myScanner = new Scanner(System.in);
+    Scanner myScanner = new Scanner(System.in);{
 
     System.out.println("What is the first grade?");
     grade0= myScanner.nextInt();
@@ -45,7 +45,7 @@ public static void calcGPA() {
     
 public static void newline() 
     System.out.println();
-
+}
 public static void threeline(){
 
     newline();
@@ -84,14 +84,75 @@ public static void mathPractice(){
     Scanner myScanner = new Scanner(System.in);
     Math.min(x, y);
     System.out.println(Math.min(x,y));
+
+    int lowest;
+
 }
 
 public static void main(String[] args){
+
+
+mathPractice();
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public static double getGPA(){
+    int grade0, grade1, grade2;
+
+    grade0 =75;
+    grade1 = 25;
+    grade2 = 0;
+
+    double fakeGPA;
+    fakeGPA = (grade0 + grade1 + grade2 / 3);
+
 }
-
-    
-
-
 
 
 
